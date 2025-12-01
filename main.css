@@ -1,0 +1,11 @@
+.navbar-light{
+    background-color: #773f1a;
+}
+
+.hero-section{
+    background-image: url("img/OvertureHallMadison.jpg");
+    position: relative;
+    color: white;
+    z-index: 1;
+    text-shadow: 1px 1px 3px black;
+}
