@@ -1,11 +1,33 @@
+body{
+    background: #f5f5f5;
+    color: #222; 
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
 .navbar-light{
     background-color: #773f1a;
 }
 
-.hero-section{
-    background-image: url("img/OvertureHallMadison.jpg");
+header{
+    background: #222;
+}
+
+.hero-section-title{
+    background-image:url("img/OvertureHallMadison.jpg");
     position: relative;
     color: white;
+    padding: 4rem 1rem;
     z-index: 1;
     text-shadow: 1px 1px 3px black;
+}
+
+p{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: white;
+}
+.navbar-toggler-icon {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
