@@ -70,5 +70,62 @@
                </div>
            </div>
        </div>
+
+    <script>
+        const TIMELINE = [
+        {
+        era: "Baroque", date: "1600–1750",
+        context: "Music served churches and royalty; focus on structured forms.",
+        organ: "Large, ornate organs with clear tone for counterpoint.",
+        piano: "Harpsichord & clavichord dominate; early experiments with pianos."
+        },
+        {
+        era: "Classical", date: "1750–1820",
+        context: "Rise of public concerts and Enlightenment ideals.",
+        organ: "Simpler organs with more balanced tone.",
+        piano: "Fortepiano becomes the standard keyboard instrument."
+        },
+        {
+        era: "Romantic", date: "1820–1900",
+        context: "Emotion, expression, and orchestral richness.",
+        organ: "Symphonic organs with richer orchestral sounds.",
+        piano: "Modern piano grows in size and power."
+        },
+        {
+        era: "Early 20th Century", date: "1900–1950",
+        context: "Modernism and new musical ideas.",
+        organ: "Electric action, new tonal styles.",
+        piano: "Jazz, modern classical, new performance techniques."
+        },
+        {
+        era: "Late 20th Century", date: "1950–2000",
+        context: "Globalization & new technology.",
+        organ: "Tracker revival and digital organs.",
+        piano: "Experimental music and minimalism."
+        },
+        {
+        era: "21st Century", date: "2000–Present",
+        context: "Digital era and global influences.",
+        organ: "Hybrid pipe-digital designs and restorations.",
+        piano: "Streaming era, film music, modern classical."
+        }
+        ];
+
+        const container = document.getElementById("timeline");
+
+
+        TIMELINE.forEach(item => {
+        const box = document.createElement("div");
+        box.className = "timeline-item";
+        box.innerHTML = `
+        <div class="timeline-era">${item.era}</div>
+        <div class="timeline-date">${item.date}</div>
+        <p><strong>Context:</strong> ${item.context}</p>
+        <p><strong>Organ:</strong> ${item.organ}</p>
+        <p><strong>Piano:</strong> ${item.piano}</p>
+        `;
+        container.appendChild(box);
+        });
+    </script>
    </body>
 </html>
