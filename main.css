@@ -12,7 +12,7 @@ body{
     font-weight: 500;
 }
 
-.navbar-light{
+.nav{
     background-color: #773f1a;
 }
 
@@ -46,9 +46,15 @@ p{
 
 .timeline-item{
     background: white;
-    
 }
 
+.img{
+  width: 600px;
+}
+
+.img2{
+  width: 300px;
+}
 /*
   ========================================
   Organ builders for churches
@@ -63,3 +69,8 @@ p{
   ========================================
 */
 
+/*
+  ========================================
+  Master Composers and Organists
+  ========================================
+*/
